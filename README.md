@@ -9,8 +9,8 @@ Automation using Cypress. Please follow the below steps to run the test.
 In order to get the code and install dependencies.
 1. Open terminal.
 2. Enter `git clone https://github.com/nikhila-godugu1/CypressTest.git`
-3. Navigate into CypressTest folder by entering `cd CypressTest`
-4. And then enter `npm install`
+3. Navigate to the downloaded CypressTest directory.
+4. And then use command `npm install` to install packages.
 
 In order to run the script.
 1. Use command `npm run cypress:open`
