@@ -25,3 +25,5 @@ A browser will get kicked off and perform following validations.
 4. Verifies whether we are navigated to https://www.liveintent.com/get-in-touch/ page.
 5. Validates the presence of CONTACT US button.
 
+# Screenshot
+![Screen Shot](https://user-images.githubusercontent.com/70547922/91916211-6f3dc480-ec71-11ea-8748-fa89a56c8aba.png)
