@@ -8,8 +8,8 @@ describe('Validate liveIntent Website', () => {
           .click();
     });
     it('Validate the URL and Contact Us button presence', () => {
-        cy.get('#FirstName',{timeout:30000}).should('have.length', 1)
-        cy.url().should('eq', 'https://www.liveintent.com/get-in-touch/');
+        cy.location('href', {timeout: 10000})
+          .should('eq', 'https://www.liveintent.com/get-in-touch/');
         cy.get('button[class="mktoButton"]').should('be.visible');
     });
 });
